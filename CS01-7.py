@@ -5,4 +5,3 @@ elif(a<=20):
     print("ปรับปรุง")
 else:
     print("ดีมาก")
-  
