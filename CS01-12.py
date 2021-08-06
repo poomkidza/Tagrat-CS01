@@ -1,5 +1,10 @@
-Info=["Tangrat","Kantama","38181"]
-x=Info[0]
-y=Info[1]
-z=Info[2]
-print("\n",x,"\n",y,"\n",z)
+Num = int(input("Enter your loop:"))
+Numtotal = []
+for i in range(Num):
+    data=int(input("Enter your number:"))
+    Numtotal += [data]
+    print(Numtotal)
+Numtotal.sort(reverse=False)
+print(Numtotal[0])
+nvm = len(Numtotal)
+print(Numtotal[nvm-1])
